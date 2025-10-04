@@ -10,4 +10,4 @@ jobs:
 
       - run: chmod +x *.sh
 
-      - run: ./check-script.sh
+      - run: ./check-scripts.sh
