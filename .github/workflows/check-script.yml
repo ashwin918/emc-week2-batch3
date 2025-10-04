@@ -1,0 +1,13 @@
+name: Shell Script Checker
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: chmod +x *.sh
+
+      - run: ./check-script.sh
