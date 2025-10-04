@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "test" == "test" ]
+if [ "test" == "test" ]; then
   echo "Hello world!"
 fi
 
